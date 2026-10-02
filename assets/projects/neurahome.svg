@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="160" viewBox="0 0 440 160" role="img" aria-label="NeuraHome — A smart home driven by a natural-language voice assistant and live dashboards.">
+  <style>
+    .glow { animation: glow 3s ease-in-out infinite; }
+    @keyframes glow { 50% { opacity: .35 } }
+    .go { animation: go 1.8s ease-in-out infinite; }
+    @keyframes go { 50% { transform: translate(3px, -3px) } }
+    @media (prefers-reduced-motion: reduce) { .glow, .go { animation: none } }
+  </style>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#15191e"/><stop offset="1" stop-color="#0e1115"/></linearGradient></defs>
+  <rect x="1" y="1" width="438" height="158" rx="14" fill="url(#bg)" stroke="#2a3038"/>
+  <rect class="glow" x="1" y="1" width="4" height="158" rx="2" fill="#f778ba"/>
+  <text x="24" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#f778ba">ACADEMIC · PRESENTED AT WAJAHNI</text>
+  <text x="24" y="58" font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#e6edf3">NeuraHome</text>
+  <text font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa4ae"><tspan x="24" y="84">A smart home driven by a natural-language</tspan><tspan x="24" y="102">voice assistant and live dashboards.</tspan></text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#c9d1d9"><rect x="24" y="122" width="58" height="20" rx="10" fill="none" stroke="#30363d"/><text x="53" y="136" text-anchor="middle">Python</text><rect x="88" y="122" width="72" height="20" rx="10" fill="none" stroke="#30363d"/><text x="124" y="136" text-anchor="middle">Node-RED</text><rect x="166" y="122" width="44" height="20" rx="10" fill="none" stroke="#30363d"/><text x="188" y="136" text-anchor="middle">MQTT</text><rect x="216" y="122" width="93" height="20" rx="10" fill="none" stroke="#30363d"/><text x="262.5" y="136" text-anchor="middle">ThingsBoard</text></g>
+  <g class="go"><path d="M408 26l8-8M410 18h6v6" fill="none" stroke="#7d8590" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

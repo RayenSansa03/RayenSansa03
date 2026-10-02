@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="290" viewBox="0 0 900 290" role="img" aria-labelledby="t d">
+  <title id="t">About me, as a machine-learning model card</title>
+  <desc id="d">model: rayen-sansa. task: AI &amp; Machine Learning engineering. training data: ESPRIT engineering cycle · 4 internships. : Sagemcom · Sofrecom · Inveep · Poulina Group. fine-tuned on: RAG · LLM agents · ML pipelines · computer vision. also runs on: full-stack web · mobile · IoT. evaluation: 10 projects documented → mohamedrayensansa.me. intended use: end-of-studies (PFE) internship · from Feb 2027. languages: Arabic · French · English. limitations: still learning MLOps at scale — and enjoying it</desc>
+  <style>
+    .row { opacity: 0; animation: row .5s ease-out forwards; }
+    @keyframes row { from { opacity: 0; transform: translateX(-6px) } to { opacity: 1; transform: none } }
+    .caret { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) { .row { animation: none; opacity: 1 } .caret { animation: none } }
+  </style>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#15191e"/><stop offset="1" stop-color="#0e1115"/></linearGradient></defs>
+  <rect x="1" y="1" width="898" height="288" rx="16" fill="url(#bg)" stroke="#2a3038"/>
+  <text x="28" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#39d353">MODEL CARD</text>
+  <text x="122" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#7d8590">· about me</text>
+  <rect x="790" y="20" width="84" height="22" rx="11" fill="none" stroke="#2ea043"/>
+  <text x="832" y="35" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#39d353" text-anchor="middle">v2026</text>
+  <line x1="28" y1="46" x2="872" y2="46" stroke="#21262d"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13">
+    <g class="row" style="animation-delay:0.25s"><text x="28" y="66" fill="#7d8590">model</text><text x="170" y="66" fill="#e6edf3">rayen-sansa</text></g>
+    <g class="row" style="animation-delay:0.43s"><text x="28" y="87" fill="#7d8590">task</text><text x="170" y="87" fill="#e6edf3">AI &amp; Machine Learning engineering</text></g>
+    <g class="row" style="animation-delay:0.61s"><text x="28" y="108" fill="#7d8590">training data</text><text x="170" y="108" fill="#e6edf3">ESPRIT engineering cycle · 4 internships</text></g>
+    <g class="row" style="animation-delay:0.79s"><text x="28" y="129" fill="#7d8590"></text><text x="170" y="129" fill="#7d8590">Sagemcom · Sofrecom · Inveep · Poulina Group</text></g>
+    <g class="row" style="animation-delay:0.97s"><text x="28" y="150" fill="#7d8590">fine-tuned on</text><text x="170" y="150" fill="#8db3f3">RAG · LLM agents · ML pipelines · computer vision</text></g>
+    <g class="row" style="animation-delay:1.15s"><text x="28" y="171" fill="#7d8590">also runs on</text><text x="170" y="171" fill="#e6edf3">full-stack web · mobile · IoT</text></g>
+    <g class="row" style="animation-delay:1.33s"><text x="28" y="192" fill="#7d8590">evaluation</text><text x="170" y="192" fill="#39d353">10 projects documented → mohamedrayensansa.me</text></g>
+    <g class="row" style="animation-delay:1.51s"><text x="28" y="213" fill="#7d8590">intended use</text><text x="170" y="213" fill="#e6edf3">end-of-studies (PFE) internship · from Feb 2027</text></g>
+    <g class="row" style="animation-delay:1.69s"><text x="28" y="234" fill="#7d8590">languages</text><text x="170" y="234" fill="#e6edf3">Arabic · French · English</text></g>
+    <g class="row" style="animation-delay:1.87s"><text x="28" y="255" fill="#7d8590">limitations</text><text x="170" y="255" fill="#d29922">still learning MLOps at scale — and enjoying it</text></g>
+  </g>
+  <rect class="caret" x="28" y="264" width="8" height="15" fill="#8db3f3"/>
+</svg>
