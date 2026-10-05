@@ -1,5 +1,5 @@
 <a href="https://mohamedrayensansa.me">
-  <img src="assets/header.svg" alt="Mohamed Rayen Sansa — AI &amp; Machine Learning Engineer. Each letter of my name is stored as two numbers by an autoencoder and drawn back by its decoder." width="100%">
+  <img src="assets/banner.png" alt="Hi, I am Rayen — AI &amp; Machine Learning student" width="100%">
 </a>
 
 <p align="center">
@@ -19,40 +19,7 @@
 
 ## 🧰 Toolbox
 
-<table>
-  <tr>
-    <td width="150"><b>🧠 AI &amp; ML</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,sklearn,opencv" alt="Python, TensorFlow, PyTorch, scikit-learn, OpenCV" height="40"><br>
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain">
-      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph">
-      <img src="https://img.shields.io/badge/RAG-30363d?style=flat-square" alt="RAG">
-      <img src="https://img.shields.io/badge/LightGBM-30363d?style=flat-square" alt="LightGBM">
-      <img src="https://img.shields.io/badge/XGBoost-30363d?style=flat-square" alt="XGBoost">
-      <img src="https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=yolo&logoColor=white" alt="YOLO">
-      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini">
-      <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow">
-      <img src="https://img.shields.io/badge/SHAP-30363d?style=flat-square" alt="SHAP">
-    </td>
-  </tr>
-  <tr>
-    <td><b>🌐 Development</b></td>
-    <td><img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,express,angular,react,symfony,php,java,kotlin,flutter,cpp" alt="FastAPI, Flask, Node.js, Express, Angular, React, Symfony, PHP, Java, Kotlin, Flutter, C++" height="40"></td>
-  </tr>
-  <tr>
-    <td><b>🗄️ Data &amp; tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,firebase,docker,git,github,linux" alt="MongoDB, MySQL, SQLite, Firebase, Docker, Git, GitHub, Linux" height="40"></td>
-  </tr>
-  <tr>
-    <td><b>📡 IoT</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=arduino,raspberrypi" alt="Arduino, Raspberry Pi" height="40">
-      <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
-      <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" alt="MQTT">
-      <img src="https://img.shields.io/badge/Node--RED-8F0000?style=flat-square&logo=nodered&logoColor=white" alt="Node-RED">
-    </td>
-  </tr>
-</table>
+<a href="https://mohamedrayensansa.me"><img src="assets/stack.svg" alt="Tech stack: Python, TensorFlow, PyTorch, scikit-learn, OpenCV, FastAPI, Flask, Node.js, React, Angular, Symfony, Flutter, Docker, MongoDB, Arduino, Raspberry Pi and more" width="100%"></a>
 
 ## 🚀 Featured work
 
@@ -81,4 +48,3 @@
   </picture>
 </p>
 
-<p align="center"><sub>The banner is a real denoising autoencoder (35→16→2→16→35, trained with scikit-learn): each letter of my name is stored as two numbers and drawn back by its decoder. Code in <a href="scripts">scripts/</a>.</sub></p>
