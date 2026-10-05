@@ -172,3 +172,17 @@ for (const [pi, p] of projects.entries()) {
   ${star(414, 134, 9, pi * 0.3)}
   </g>`));
 }
+
+// ── Section headings and link pills (so nothing on the page is theme-coloured text) ──
+for (const [id, label] of [['toolbox', 'TOOLBOX'], ['work', 'FEATURED WORK'], ['activity', 'ACTIVITY']]) {
+  out(`h-${id}.svg`, svg(900, 56, label, `
+  <text x="8" y="36" ${FONT} font-size="22" font-weight="800" letter-spacing="3" fill="${INK}">${label}</text>
+  ${star(label.length * 17 + 40, 28, 11, 0.2)}
+  <line x1="${label.length * 17 + 66}" y1="30" x2="892" y2="30" stroke="${INK}" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>`));
+}
+const pills = [['linkedin', 'LINKEDIN', 130], ['email', 'EMAIL', 100], ['resume', 'RESUME (PDF)', 140], ['status', 'OPEN TO PFE · FEB 2027', 220]];
+for (const [id, label, w] of pills) {
+  out(`pill-${id}.svg`, svg(w, 40, label, `
+  <rect x="2" y="2" width="${w - 4}" height="36" rx="18" fill="${id === 'status' ? INK : '#fff'}" stroke="${INK}" stroke-width="2.5"/>
+  <text x="${w / 2}" y="25" ${FONT} font-size="12" font-weight="800" letter-spacing="1.5" text-anchor="middle" fill="${id === 'status' ? '#fff' : INK}">${label}</text>`));
+}

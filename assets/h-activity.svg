@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56" viewBox="0 0 900 56" role="img" aria-label="ACTIVITY">
+  <style>
+    .pop { opacity: 0; transform-box: fill-box; transform-origin: center; animation: pop .55s cubic-bezier(.2,1.4,.4,1) forwards; }
+    @keyframes pop { from { opacity: 0; transform: scale(.2) translateY(14px) } to { opacity: 1; transform: none } }
+    .float { animation: float 3.4s ease-in-out infinite; }
+    @keyframes float { 50% { transform: translateY(-4px) } }
+    .twinkle { transform-box: fill-box; transform-origin: center; animation: twinkle 2.6s ease-in-out infinite; }
+    @keyframes twinkle { 50% { transform: scale(1.18) rotate(8deg) } }
+    .row { opacity: 0; animation: row .5s ease-out forwards; }
+    @keyframes row { from { opacity: 0; transform: translateX(-6px) } to { opacity: 1; transform: none } }
+    .rise { opacity: 0; animation: rise .7s ease-out forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
+    .go { animation: go 1.8s ease-in-out infinite; }
+    @keyframes go { 50% { transform: translate(3px, -3px) } }
+    .scan { animation: scan 3.2s ease-in-out infinite; }
+    @keyframes scan { 0% { transform: translateX(-160px) } 60%, 100% { transform: translateX(520px) } }
+    .arrow { animation: nudge 1.6s ease-in-out infinite; }
+    @keyframes nudge { 50% { transform: translateX(4px) } }
+    .caret { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0 } }
+    @media (prefers-reduced-motion: reduce) { .pop, .row, .rise { animation: none; opacity: 1 } .float, .twinkle, .go, .arrow, .caret { animation: none } .scan { display: none } }
+  </style>
+  
+  <text x="8" y="36" font-family="Poppins, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="3" fill="#111">ACTIVITY</text>
+  <g class="twinkle" style="animation-delay:0.2s"><path d="M176.0 17.0L178.9 24.0L186.5 24.6L180.7 29.5L182.5 36.9L176.0 33.0L169.5 36.9L171.3 29.5L165.5 24.6L173.1 24.0Z" fill="none" stroke="#111" stroke-width="2.4" stroke-linejoin="round"/><path d="M178.8 18.1L181.7 24.5L190.6 26.4L182.0 31.1L183.4 39.7L176.6 36.3L170.0 37.1L171.5 30.2L165.3 23.4L175.1 24.7Z" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="round"/></g>
+  <line x1="202" y1="30" x2="892" y2="30" stroke="#111" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+</svg>
