@@ -8,9 +8,9 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mohamed-rayen-sansa-76992a1b7/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:mohamedrayen.sansa@esprit.tn"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: mohamedrayen.sansa@esprit.tn"></a>
-  <a href="https://mohamedrayensansa.me/cv/cv/en.pdf"><img src="https://img.shields.io/badge/Resume-0d1117?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume (PDF)"></a>
-  <img src="https://img.shields.io/badge/PFE%20internship-Feb%202027-238636?style=for-the-badge" alt="Open to a PFE internship from February 2027">
+  <a href="mailto:mohamedrayen.sansa@esprit.tn"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: mohamedrayen.sansa@esprit.tn"></a>
+  <a href="https://mohamedrayensansa.me/cv/cv/en.pdf"><img src="https://img.shields.io/badge/Resume-000000?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume (PDF)"></a>
+  <img src="https://img.shields.io/badge/PFE%20internship-Feb%202027-111111?style=for-the-badge" alt="Open to a PFE internship from February 2027">
 </p>
 
 <br>
@@ -37,14 +37,11 @@
 ## 📊 Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RayenSansa03&show_icons=true&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=8db3f3&text_color=e6edf3&count_private=true" alt="GitHub stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RayenSansa03&layout=compact&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=e6edf3" alt="Most used languages" height="165">
+  <img src="https://github-readme-stats.vercel.app/api?username=RayenSansa03&show_icons=true&hide_border=true&bg_color=ffffff&title_color=111111&icon_color=111111&text_color=333333&count_private=true" alt="GitHub stats" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RayenSansa03&layout=compact&hide_border=true&bg_color=ffffff&title_color=111111&text_color=333333" alt="Most used languages" height="165">
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RayenSansa03/RayenSansa03/output/github-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/RayenSansa03/RayenSansa03/output/github-snake.svg" alt="My contribution graph, eaten by a snake">
-  </picture>
+  <img src="https://raw.githubusercontent.com/RayenSansa03/RayenSansa03/output/github-snake.svg" alt="My contribution graph, eaten by a snake">
 </p>
 
